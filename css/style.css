@@ -7,7 +7,9 @@
   #mobile{
       display: none;
   } 
-    
+  #mini{
+    display: none;
+}
 
 .navbar-brand
  {
@@ -144,6 +146,9 @@
         }
         #mobile{
             display: none;
+        }
+        #mini{
+            display: block;
         }
         
         .navbar-brand{
@@ -292,10 +297,6 @@
             
         
         }
-        body{
-            border-style: solid;
-        
-        }
         
         
         
@@ -334,11 +335,11 @@
   #mobile{
       display: block;
   } 
+  #mini{
+    display: none;
+}
     
-  body{
-      border-style: solid;
-  }
-
+  
 
   .navbar-brand
   {
@@ -500,7 +501,6 @@ padding-right:0 ;
 }
 
 
-
     }
     @media (min-width: 662px) and (max-width: 991px){
 
@@ -511,6 +511,7 @@ padding-right:0 ;
         #mobile{
             display: block;
         }
+        
 body{
     border-style: solid;
 }
@@ -683,6 +684,9 @@ body{
 }
 body{
     border-style: solid;
+}
+#mini{
+    display: none;
 }
     }
 
