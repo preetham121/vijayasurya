@@ -133,7 +133,191 @@
         font-family: 'Oxygen', sans-serif;
     }   
 
-    @media (max-width: 661px) { 
+
+
+
+    @media (max-width:500px){
+
+        #desktop{
+            display: none;
+        
+        }
+        #mobile{
+            display: none;
+        }
+        
+        .navbar-brand{
+            padding: 5px;
+            margin: 0;
+        }
+        
+        .navbar-brand
+        {
+            margin: 10px;
+            padding: 10px;
+            
+        }   
+           
+        .active{
+            padding:30px;
+        }
+        .nav-item{
+           padding:30px;
+           text-decoration:none;
+           text-align: center;
+        }
+        #nav-bar ul li a:hover{
+           color:blue!important;
+           
+        }
+        .contact{
+           padding:30px;
+        }
+        .adr{
+           padding:10px;
+        }
+        .nav-link{
+           font-weight: 900;
+           font-size: 20px;
+           color:black!important;
+           text-align: center!important;
+        }
+        .navbar-nav{
+           float:right;
+           margin: 0;
+        }
+        
+        
+        
+        
+        .navbar{
+           height: 100px;
+        }
+        
+        .bg-img{
+           background: url("../images/image1.png") no-repeat center;
+           background-size: cover;
+           background-attachment: fixed;
+           height: 600px;
+           width: 100%;
+           
+           }
+           .bg-img2{
+               background: url("../images/image2.png") no-repeat center;
+               background-size: cover;
+               background-attachment: fixed;
+               height: 600px;
+               width: 100%;
+               
+               }
+               .bg-img3{
+                   background: url("../images/image3.png") no-repeat center;
+                   background-size: cover;
+                   background-attachment: fixed;
+                   height: 600px;
+                   width: 100%;
+                   
+                   }
+                   .bg-img4{
+                       background: url("../images/image4.png") no-repeat center;
+                       background-size: cover;
+                       background-attachment: fixed;
+                       height: 600px;
+                       width: 100%;
+                       
+                       }
+                       .bg-img5{
+                           background: url("../images/image5.png") no-repeat center;
+                           background-size: cover;
+                           background-attachment: fixed;
+                           height: 600px;
+                           width: 100%;
+                           
+                           }
+            .p1{
+                
+                padding:20px;
+                
+                background-color: black;
+                color:rgb(190, 190, 190);
+                font-size: 18px;font-family: 'Oxygen', sans-serif;
+            }                           
+            .p2{
+               font-size: 18px;
+               padding:20px;
+               background-color: black;
+               color:rgb(190, 190, 190);font-family: 'Oxygen', sans-serif;
+               
+           }                           
+           .p3{
+               font-size: 18px;
+               padding:20px;
+               background-color: black;
+               color:rgb(190, 190, 190);font-family: 'Oxygen', sans-serif;
+           }                           
+           .p4{
+               font-size: 18px;
+               text-align: center;
+               padding:20px;
+               background-color: black;
+               color: rgb(190, 190, 190);font-family: 'Oxygen', sans-serif;
+           }  
+           .p5{
+               font-size: 18px;
+               text-align: center;
+               padding:20px;
+               background-color: black;
+               color:rgb(190, 190, 190);
+               font-family: 'Oxygen', sans-serif;
+           }   
+        
+        .division{
+          width: 100%!important;
+          background: white;
+          border-bottom: solid;
+          border-color: black;
+          padding-left: 0;
+          padding-right: 0;
+          
+          
+        }
+        divide{
+          margin-bottom:10px;
+          padding-bottom:30px;
+        }
+        
+        nav{
+            
+            border-bottom-style: hidden;
+            
+        
+        }
+        body{
+            border-style: solid;
+        
+        }
+        
+        
+        
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (min-width:501px) and (max-width: 661px) { 
 
 #desktop{
     display:none;
@@ -151,6 +335,9 @@
       display: block;
   } 
     
+  body{
+      border-style: solid;
+  }
 
 
   .navbar-brand
@@ -324,7 +511,9 @@ padding-right:0 ;
         #mobile{
             display: block;
         }
-
+body{
+    border-style: solid;
+}
         .navbar-brand
         {
             margin: 10px;
@@ -492,4 +681,9 @@ padding-right:0 ;
 #mobile{
     display: none;
 }
+body{
+    border-style: solid;
+}
     }
+
+ 
